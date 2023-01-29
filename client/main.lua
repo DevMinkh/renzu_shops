@@ -823,13 +823,13 @@ self.EditItem = function(data, store, cat)
 			description = 'Create a Order for 100x '..item..'',
 			arrow = true,
 			onSelect = function(args)
-				local input = lib.inputDialog('How Many :'..item..'   \n Min: 5 Max 100', {'Whole Sale Price: '..data.pricing.original * shared.discount..'$'})
+				local input = lib.inputDialog('How Many :'..item..'   \n Min: 1 Max 100', {'Whole Sale Price: '..data.pricing.original * shared.discount..'$'})
 				if not input then return end
 				local wholesaleorder = tonumber(input[1]) or 1
-				if wholesaleorder < 5 then 
+				if wholesaleorder < 1 then 
 					self.SetNotify({
 						title = 'Store Business',
-						description = 'Order Failed - Minimum is 5',
+						description = 'Order Failed - Minimum is 1',
 						type = 'error'
 					})
 					return 
@@ -3682,7 +3682,7 @@ self.Finance = function(data) -- simple financing only. since ox_lib input does 
 	local interest = shared.FinanceInterest/100
 	table.insert(options,{ type = "slider", label = "Down Payment", min = downpayment, max =  downpayment * 2, step = 1})
 	--table.insert(options,{ type = "input", label = "Amount Financed (Interest Rate: "..shared.FinanceInterest.."%)", placeholder = amountfinanced  , disabled = true})
-	table.insert(options,{ type = "slider", label = "Finance Duration (days)", min = 5, max =  shared.FinanceMaxDays, step = 1})
+	table.insert(options,{ type = "slider", label = "Finance Duration (days)", min = 1, max =  shared.FinanceMaxDays, step = 1})
 	local input = lib.inputDialog('Finance Page 1', options)
 	local initialpayment, days = table.unpack(input)
 	local finaldailyamount

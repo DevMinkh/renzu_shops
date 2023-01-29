@@ -1,6 +1,6 @@
 ESX,QBCORE = nil, nil
 shared = {}
-shared.lang = 'en' -- look config/locales/%s.lua eg. 'en' for en.lua | to create new language, create a new file ex. es.lua
+shared.lang = 'de' -- look config/locales/%s.lua eg. 'en' for en.lua | to create new language, create a new file ex. es.lua
 shared.framework = 'ESX' -- ESX || QBCORE
 shared.inventory = 'ox_inventory' -- 'ox_inventory' or 'qb-inventory' https://github.com/renzuzu/qb-inventory
 -- use ox_inventory Shops UI (experimental feature) only with my forked ox_inventory REPO https://github.com/renzuzu/ox_inventory
@@ -14,11 +14,11 @@ shared.FinanceMaxDays = 30
 shared.MaxDebt = 1000000 -- max amount of total debt from player in able to finance
 shared.defaultStock = {
 	General = 100, 
-	Ammunation = 20,
+	Ammunation = 100,
 	VehicleShop = 10,
 	BlackMarketArms = 20,
 } -- default to all items in store when newly purchased
-shared.SendtoBank = false -- if true owner will receive money to owned bank account
+shared.SendtoBank = true -- if true owner will receive money to owned bank account
 shared.VehicleKeysType = {
 	['export'] = true, -- if false it will use trigger events
 	['client'] = false, -- if false it will use server event or server exports

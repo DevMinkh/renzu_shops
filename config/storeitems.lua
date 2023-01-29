@@ -1,59 +1,61 @@
 return {
 	General = { -- General Stores 24/7
-		{ lvl = 1, name = 'burger', price = 50 , category = 'food', customise = {'cheese', 'lettuce', 'hotsauce', 'mayonaise', 'burgerpatty'}},
-		{ lvl = 1, name = 'water', price = 10 , category = 'beverages', customise = {'mineralwater', 'purifiedwater'}},
-		{ lvl = 1, name = 'cola', price = 30 , category = 'beverages'},
-		{ lvl = 1, name = 'coffee', price = 30 , category = 'beverages'},
-		{ lvl = 1, name = 'donut', price = 30 , category = 'food'},
-		{ lvl = 1, name = 'sandwich', price = 30 , category = 'food'},
-		{ lvl = 2, name = 'lighter', price = 20 , category = 'misc'},
-		{ lvl = 2, name = 'redw', price = 1000 , category = 'TOBACCO'},
-		{ lvl = 2, name = 'marlboro', price = 1000 , category = 'TOBACCO'},
+		{ lvl = 1, name = 'burger', price = 5 , category = 'food', customise = {'cheese', 'lettuce', 'hotsauce', 'mayonaise', 'burgerpatty'}},
+		{ lvl = 1, name = 'water', price = 2 , category = 'beverages', customise = {'mineralwater', 'purifiedwater'}},
+		{ lvl = 1, name = 'cola', price = 3 , category = 'beverages'},
+		{ lvl = 1, name = 'coffee', price = 3 , category = 'beverages'},
+		{ lvl = 1, name = 'donut', price = 3 , category = 'food'},
+		{ lvl = 1, name = 'sandwich', price = 4 , category = 'food'},
+		{ lvl = 2, name = 'lighter', price = 2 , category = 'misc'},
+		{ lvl = 2, name = 'redw', price = 10 , category = 'TOBACCO'},
+		{ lvl = 2, name = 'marlboro', price = 10 , category = 'TOBACCO'},
 
-		{ lvl = 2, name = 'phone', price = 1000 , category = 'gadget'},
-		{ lvl = 2, name = 'parachute', price = 3000 , category = 'gadget'},
-		{ lvl = 2, name = 'radio', price = 1000 , category = 'gadget'},
-		{ lvl = 2, name = 'notepad', price = 50 , category = 'gadget'},
-		{ lvl = 2, name = 'camera', price = 250 , category = 'gadget'},
-		{ lvl = 2, name = 'camerafilm', price = 50 , category = 'gadget'},
-		{ lvl = 2, name = 'boombox', price = 250 , category = 'gadget'},
+		{ lvl = 2, name = 'phone', price = 725 , category = 'gadget'},
+		--{ lvl = 2, name = 'parachute', price = 3000 , category = 'gadget'},
+		--{ lvl = 2, name = 'radio', price = 275 , category = 'gadget'},
+		--{ lvl = 2, name = 'notepad', price = 3 , category = 'gadget'},
+		--{ lvl = 2, name = 'camera', price = 250 , category = 'gadget'},
+		--{ lvl = 2, name = 'camerafilm', price = 5 , category = 'gadget'},
+		--{ lvl = 2, name = 'boombox', price = 250 , category = 'gadget'},
+		
+		{ lvl = 2, name = 'simcard', price = 35 , category = 'misc'},
 
-		{ lvl = 2, name = 'firework_1', price = 50 , category = 'fireworks'},
-		{ lvl = 2, name = 'firework_2', price = 50 , category = 'fireworks'},
-		{ lvl = 2, name = 'firework_3', price = 50 , category = 'fireworks'},
-		{ lvl = 2, name = 'firework_4', price = 50 , category = 'fireworks'},
-		{ lvl = 2, name = 'fontain_4', price = 50 , category = 'fireworks'},
+		{ lvl = 2, name = 'firework_1', price = 5 , category = 'fireworks'},
+		{ lvl = 2, name = 'firework_2', price = 5 , category = 'fireworks'},
+		{ lvl = 2, name = 'firework_3', price = 5 , category = 'fireworks'},
+		{ lvl = 2, name = 'firework_4', price = 5 , category = 'fireworks'},
+		{ lvl = 2, name = 'fontain_4', price = 5 , category = 'fireworks'},
 
 
-		{ lvl = 2, name = 'latte', price = 150 , category = 'beverages'},
-		{ lvl = 1, name = 'tomatosauce', price = 15 , category = 'ingredients'},
-		{ lvl = 1, name = 'burgerpatty', price = 15 , category = 'ingredients'},
-		{ lvl = 1, name = 'tacoshells', price = 15 , category = 'ingredients'},
-		{ lvl = 1, name = 'ground_beef', price = 15 , category = 'ingredients'},
-		{ lvl = 1, name = 'cheese', price = 15 , category = 'ingredients'},
-		{ lvl = 1, name = 'tomato', price = 15 , category = 'ingredients'},
-		{ lvl = 1, name = 'pasta', price = 15 , category = 'ingredients'},
-		{ lvl = 1, name = 'onion', price = 15 , category = 'ingredients'},
-		{ lvl = 1, name = 'mayonaise', price = 15 , category = 'ingredients'},
-		{ lvl = 1, name = 'hotsauce', price = 5 , category = 'ingredients'},
-		{ lvl = 1, name = 'lettuce', price = 5 , category = 'ingredients'},
-		{ lvl = 1, name = 'tacosauce', price = 7 , category = 'ingredients', disable = true}, -- disable tag, to disable the item from showing in shop UI. while this can be disable and enable tru store manage
-		{ lvl = 1, name = 'fish', price = 5 , category = 'wet foods'},
-		{ lvl = 1, name = 'beef', price = 5 , category = 'wet foods'},
-		{ lvl = 1, name = 'chicken', price = 5 , category = 'wet foods'},
+		{ lvl = 2, name = 'latte', price = 3 , category = 'beverages'},
+		{ lvl = 1, name = 'tomatosauce', price = 1 , category = 'ingredients'},
+		{ lvl = 1, name = 'burgerpatty', price = 1 , category = 'ingredients'},
+		{ lvl = 1, name = 'tacoshells', price = 1 , category = 'ingredients'},
+		{ lvl = 1, name = 'ground_beef', price = 1 , category = 'ingredients'},
+		{ lvl = 1, name = 'cheese', price = 1 , category = 'ingredients'},
+		{ lvl = 1, name = 'tomato', price = 1 , category = 'ingredients'},
+		{ lvl = 1, name = 'pasta', price = 1 , category = 'ingredients'},
+		{ lvl = 1, name = 'onion', price = 1 , category = 'ingredients'},
+		{ lvl = 1, name = 'mayonaise', price = 1 , category = 'ingredients'},
+		{ lvl = 1, name = 'hotsauce', price = 1 , category = 'ingredients'},
+		{ lvl = 1, name = 'lettuce', price = 1 , category = 'ingredients'},
+		{ lvl = 1, name = 'tacosauce', price = 1 , category = 'ingredients', disable = true}, -- disable tag, to disable the item from showing in shop UI. while this can be disable and enable tru store manage
+		{ lvl = 1, name = 'fish', price = 1 , category = 'wet foods'},
+		{ lvl = 1, name = 'beef', price = 1 , category = 'wet foods'},
+		{ lvl = 1, name = 'chicken', price = 1 , category = 'wet foods'},
 		{ lvl = 1, name = 'martini', price = 5 , category = 'liquor'},
-		{ lvl = 1, name = 'bread', price = 15 , category = 'ingredients'},
-		{ lvl = 1, name = 'hotdog', price = 25 , category = 'ingredients'},
-		{ lvl = 1, name = 'fishingrod', price = 200 , category = 'fishing'},
-		{ lvl = 1, name = 'fishbait', price = 50, category = 'fishing'},
-		{ lvl = 1, name = 'garden_shovel', price = 1000 , category = 'seeds'},
-		{ lvl = 1, name = 'garden_pitcher', price = 1000, category = 'seeds'},
-		{ lvl = 1, name = 'pickle_seed', price = 100 , category = 'seeds'},
-		{ lvl = 1, name = 'potato_seed', price = 100 , category = 'seeds'},
-		{ lvl = 1, name = 'tomato_seed', price = 100 , category = 'seeds'},
-		{ lvl = 1, name = 'wheat_seed', price = 100 , category = 'seeds'},
-		{ lvl = 1, name = 'carrot_seed', price = 100 , category = 'seeds'},
-		{ lvl = 1, name = 'corn_seed', price = 100 , category = 'seeds'},
+		{ lvl = 1, name = 'bread', price = 2 , category = 'ingredients'},
+		{ lvl = 1, name = 'hotdog', price = 3 , category = 'ingredients'},
+		--{ lvl = 1, name = 'fishingrod', price = 200 , category = 'fishing'},
+		--{ lvl = 1, name = 'fishbait', price = 2, category = 'fishing'},
+		--{ lvl = 1, name = 'garden_shovel', price = 55 , category = 'seeds'},
+		--{ lvl = 1, name = 'garden_pitcher', price = 45, category = 'seeds'},
+		--{ lvl = 1, name = 'pickle_seed', price = 2 , category = 'seeds'},
+		--{ lvl = 1, name = 'potato_seed', price = 2 , category = 'seeds'},
+		--{ lvl = 1, name = 'tomato_seed', price = 2 , category = 'seeds'},
+		--{ lvl = 1, name = 'wheat_seed', price = 2 , category = 'seeds'},
+		--{ lvl = 1, name = 'carrot_seed', price = 2 , category = 'seeds'},
+		--{ lvl = 1, name = 'corn_seed', price = 2 , category = 'seeds'},
 	
 		
 		{ lvl = 1, name = 'playerbooth', price = 50000 , category = 'misc', 
@@ -83,7 +85,7 @@ return {
 
 
 		-- metadatas type item
-		{ lvl = 1, name = 'burger', price = 80 , category = 'food', metadata = { -- ox_inventory supported only
+		{ lvl = 1, name = 'burger', price = 5 , category = 'food', metadata = { -- ox_inventory supported only
 				label = 'Cheese Burger', -- custom label name to set from metadatas
 				cheese = true,
 				name = 'cheeseburger', -- identifier important
@@ -93,7 +95,7 @@ return {
 				customrandomname = 'custom text'
 			},
 		},
-		{ lvl = 1, name = 'burger', price = 20 , category = 'food', metadata = { -- ox_inventory supported only
+		{ lvl = 1, name = 'burger', price = 8 , category = 'food', metadata = { -- ox_inventory supported only
 				label = 'Angels Burger', -- custom label name to set from metadatas
 				cheese = true,
 				name = 'angelsburger', -- identifier important
@@ -104,50 +106,74 @@ return {
 			},
 		},
 
-		{ lvl = 1, name = 'icecream1', price = 155 , category = 'icecream'},
+		--{ lvl = 1, name = 'icecream1', price = 2 , category = 'icecream'},
 
-		{ lvl = 1, name = 'icecream2', price = 155 , category = 'icecream'},
-
-
-		{ lvl = 1, name = 'icecream3', price = 155 , category = 'icecream'},
+		--{ lvl = 1, name = 'icecream2', price = 2 , category = 'icecream'},
 
 
-		{ lvl = 1, name = 'icecream4', price = 155 , category = 'icecream'},
+		--{ lvl = 1, name = 'icecream3', price = 2 , category = 'icecream'},
 
 
-		{ lvl = 1, name = 'icecream5', price = 155 , category = 'icecream'},
-
-		{ lvl = 1, name = 'icecream6', price = 155 , category = 'icecream'},
+		--{ lvl = 1, name = 'icecream4', price = 2 , category = 'icecream'},
 
 
-		{ lvl = 1, name = 'icecream7', price = 155 , category = 'icecream'},
+		--{ lvl = 1, name = 'icecream5', price = 2 , category = 'icecream'},
+
+		--{ lvl = 1, name = 'icecream6', price = 2 , category = 'icecream'},
 
 
-		{ lvl = 1, name = 'icecream8', price = 155 , category = 'icecream'},
+		--{ lvl = 1, name = 'icecream7', price = 2 , category = 'icecream'},
 
-		{ lvl = 1, name = 'laysgreen', price = 255 , category = 'snacks'},
-		{ lvl = 1, name = 'pizzaslice1', price = 355 , category = 'pizza'},
-		{ lvl = 1, name = 'pizzaslice2', price = 355 , category = 'pizza'},
-		{ lvl = 1, name = 'pizzaslice3', price = 355 , category = 'pizza'},
-		{ lvl = 1, name = 'pizzaslice4', price = 355 , category = 'pizza'},
-		{ lvl = 1, name = 'pizzaslice5', price = 355 , category = 'pizza'},
+
+		--{ lvl = 1, name = 'icecream8', price = 2 , category = 'icecream'},
+
+		--{ lvl = 1, name = 'laysgreen', price = 4 , category = 'snacks'},
+		--{ lvl = 1, name = 'pizzaslice1', price = 4 , category = 'pizza'},
+		--{ lvl = 1, name = 'pizzaslice2', price = 4 , category = 'pizza'},
+		--{ lvl = 1, name = 'pizzaslice3', price = 4 , category = 'pizza'},
+		--{ lvl = 1, name = 'pizzaslice4', price = 4 , category = 'pizza'},
+		--{ lvl = 1, name = 'pizzaslice5', price = 4 , category = 'pizza'},
+		
+		-- renzu_hygiene
+		{ lvl = 1, name = 'rexona', price = 3 , category = 'misc'},
+		{ lvl = 1, name = 'bodyspray', price = 5 , category = 'misc'},
+		{ lvl = 1, name = 'channelspray', price = 6 , category = 'misc'},
+		{ lvl = 1, name = 'bvlgari', price = 10 , category = 'misc'},
+		{ lvl = 1, name = 'redgull', price = 5 , category = 'misc'},
 
 
 
 	},
 	Ammunation = {
-		{ lvl = 1, name = 'ammo-9', category = 'ammo', price = 15, },
-		{ lvl = 1, name = 'ammo-rifle', category = 'ammo', price = 15, },
-		{ lvl = 1, name = 'ammo-rifle2', category = 'ammo', price = 15, },
-		{ lvl = 1, name = 'ammo-shotgun', category = 'ammo', price = 15, },
-		{ lvl = 1, name = 'ammo-50', category = 'ammo', price = 15, },
-		{ lvl = 1, name = 'ammo-45', category = 'ammo', price = 15, },
-		{ lvl = 1, name = 'WEAPON_KNIFE', category = 'handheld', price = 5000 },
-		{ lvl = 1, name = 'WEAPON_BAT', category = 'handheld', price = 3500 },
-		{ lvl = 1, name = 'WEAPON_PISTOL', category = 'Handgun', price = 25000, metadata = { registered = true }, license = 'weapon' },
- 		--{ lvl = 2, name = 'WEAPON_APPISTOL', category = 'Handgun', price = 10000, metadata = { registered = true }, license = 'weapon' },
-		{ lvl = 2, name = 'WEAPON_BZGAS', category = 'throwable', price = 5000, metadata = { registered = true }, license = 'weapon' },
-		--{ lvl = 2, name = 'WEAPON_COMBATPDW', category = 'machine guns', price = 18000, metadata = { registered = true }, license = 'weapon' },
+		{ lvl = 1, name = 'ammo-flare', category = 'ammo', price = 1, },
+		{ lvl = 1, name = 'ammo-9', category = 'ammo', price = 1, },
+		{ lvl = 1, name = 'ammo-shotgun', category = 'ammo', price = 2},
+		{ lvl = 1, name = 'ammo-45', category = 'ammo', price = 2},
+		
+		{ lvl = 1, name = 'WEAPON_FLASHLIGHT', category = 'handheld', price = 500 },
+		{ lvl = 1, name = 'WEAPON_KNUCKLE', category = 'handheld', price = 500 },
+		{ lvl = 1, name = 'WEAPON_KNIFE', category = 'handheld', price = 500 },
+		{ lvl = 1, name = 'WEAPON_HAMMER', category = 'handheld', price = 500 },
+		{ lvl = 1, name = 'WEAPON_GOLFCLUB', category = 'handheld', price = 500 },
+		{ lvl = 1, name = 'WEAPON_CROWBAR', category = 'handheld', price = 500 },
+		{ lvl = 1, name = 'WEAPON_CANDYCANE', category = 'handheld', price = 500 },
+		{ lvl = 1, name = 'WEAPON_WRENCH', category = 'handheld', price = 500 },
+		{ lvl = 1, name = 'WEAPON_POOLCUE', category = 'handheld', price = 500 },
+		{ lvl = 1, name = 'WEAPON_BAT', category = 'handheld', price = 500 },
+		{ lvl = 1, name = 'WEAPON_MACHETE', category = 'handheld', price = 500 },
+		
+		{ lvl = 1, name = 'WEAPON_FLAREGUN', category = 'Handgun', price = 1000, metadata = { registered = true }, license = 'weapon' },
+		{ lvl = 2, name = 'WEAPON_SNSPISTOL', category = 'Handgun', price = 3000, metadata = { registered = true }, license = 'weapon' },
+		{ lvl = 2, name = 'WEAPON_SNSPISTOL_MK2', category = 'Handgun', price = 4000, metadata = { registered = true }, license = 'weapon' },
+		{ lvl = 1, name = 'WEAPON_PISTOL', category = 'Handgun', price = 4000, metadata = { registered = true }, license = 'weapon' },
+		{ lvl = 2, name = 'WEAPON_PISTOL_MK2', category = 'Handgun', price = 5000, metadata = { registered = true }, license = 'weapon' },
+		{ lvl = 2, name = 'WEAPON_PISTOLXM3', category = 'Handgun', price = 5000, metadata = { registered = true }, license = 'weapon' },
+		{ lvl = 2, name = 'WEAPON_APPISTOL', category = 'Handgun', price = 12000, metadata = { registered = true }, license = 'weapon' },
+		{ lvl = 2, name = 'WEAPON_SMG', category = 'machine guns', price = 10000, metadata = { registered = true }, license = 'weapon' },
+		{ lvl = 2, name = 'WEAPON_SMG_MK2', category = 'machine guns', price = 15000, metadata = { registered = true }, license = 'weapon' },
+		{ lvl = 2, name = 'WEAPON_MICROSMG', category = 'machine guns', price = 15000, metadata = { registered = true }, license = 'weapon' },
+		{ lvl = 2, name = 'WEAPON_COMBATPDW', category = 'machine guns', price = 20000, metadata = { registered = true }, license = 'weapon' },
+		{ lvl = 2, name = 'WEAPON_DBSHOTGUN', category = 'machine guns', price = 50000, metadata = { registered = true }, license = 'weapon' }
 	},
 
 	VehicleShop = MultiCategory(
@@ -190,22 +216,22 @@ return {
 	},
 	
 	LiquorStore = {
-		{ name = 'water', price = 350, category = 'drinks' },
-		{ name = 'sanmig', price = 1011, category = 'drinks' },
-		{ name = 'burger', price = 151, category = 'food' },
-		{ name = 'panties', 500 , category = 'misc'},
-		{ name = 'marlboro', price = 351, category = 'Cigarrete' },
-		{ name = 'frog_grilled', price = 1251, category = 'food' },
-		{ name = 'lapulapu_grilled', price = 1251, category = 'food' },
-		{ name = 'galungong_grilled', price = 1251, category = 'food' },
+		{ name = 'water', price = 2, category = 'drinks' },
+		{ name = 'sanmig', price = 8, category = 'drinks' },
+		{ name = 'burger', price = 4, category = 'food' },
+		{ name = 'panties', price = 50 , category = 'misc'},
+		{ name = 'marlboro', price = 10, category = 'Cigarrete' },
+		{ name = 'frog_grilled', price = 6, category = 'food' },
+		{ name = 'lapulapu_grilled', price = 6, category = 'food' },
+		{ name = 'galungong_grilled', price = 6, category = 'food' },
 	},
 
 	Burgershot = { -- Burgershot
-		{ lvl = 1, name = 'burger', price = 50 , category = 'food', customise = {'cheese', 'lettuce', 'hotsauce', 'mayonaise', 'burgerpatty'},ingredients = {burgerpatty = 1, bread = 1, tomatosauce = 1}},
-		{ lvl = 1, name = 'water', price = 10 , category = 'beverages', customise = {'mineralwater', 'purifiedwater'}},
-		{ lvl = 1, name = 'cola', price = 30 , category = 'beverages'},
+		{ lvl = 1, name = 'burger', price = 4 , category = 'food', customise = {'cheese', 'lettuce', 'hotsauce', 'mayonaise', 'burgerpatty'},ingredients = {burgerpatty = 1, bread = 1, tomatosauce = 1}},
+		{ lvl = 1, name = 'water', price = 2 , category = 'beverages', customise = {'mineralwater', 'purifiedwater'}},
+		{ lvl = 1, name = 'cola', price = 3 , category = 'beverages'},
 		-- metadatas type item
-		{ lvl = 1, name = 'burger', price = 80 , category = 'food', metadata = { -- ox_inventory supported only
+		{ lvl = 1, name = 'burger', price = 6 , category = 'food', metadata = { -- ox_inventory supported only
 				label = 'Cheese Burger', -- custom label name to set from metadatas
 				cheese = true,
 				name = 'cheeseburger', -- identifier important
@@ -216,7 +242,7 @@ return {
 			},
 			ingredients = {burgerpatty = 1, bread = 1, tomatosauce = 1}
 		},
-		{ lvl = 1, name = 'burger', price = 20 , category = 'food', metadata = { -- ox_inventory supported only
+		{ lvl = 1, name = 'burger', price = 10 , category = 'food', metadata = { -- ox_inventory supported only
 				label = 'Angels Burger', -- custom label name to set from metadatas
 				cheese = true,
 				name = 'angelsburger', -- identifier important
@@ -230,36 +256,36 @@ return {
 	},
 
 	EclipseSupply = { -- EclipseSupply
-		{ category = 'supply', name = 'medikit', price = 1000 ,grade = 0},
-		{ category = 'supply', name = 'bandage', price = 500 },
-		{ category = 'supply', name = 'ambroxol', price = 200 },
-		{ category = 'supply', name = 'diatabs', price = 200 },
-		{ category = 'supply', name = 'facemask', price = 200 }
+		{ category = 'supply', name = 'medikit', price = 10 ,grade = 0},
+		{ category = 'supply', name = 'bandage', price = 5 },
+		{ category = 'supply', name = 'ambroxol', price = 6 },
+		{ category = 'supply', name = 'diatabs', price = 6 },
+		{ category = 'supply', name = 'facemask', price = 6 }
 
 
 	},
 
 	Pharmacy = { -- EclipseSupply
-		{ category = 'medicine', name = 'aguaoxinada', price = 1500, grade = 0},
-		{ category = 'medicine', name = 'betadine', price = 1500, grade = 0},
-		{ category = 'pills', name = 'stresstab', price = 2500, grade = 0},
-		{ category = 'pills', name = 'alaxan', price = 1500, grade = 0},
-		{ category = 'pills', name = 'molnupiravir', price = 5500, grade = 0},
-		{ category = 'pills', name = 'metronidazole', price = 2500, grade = 0},
-		{ category = 'pills', name = 'baraclude', price = 2500, grade = 0},
-		{ category = 'pills', name = 'ambroxol', price = 700, grade = 0},
-		{ category = 'pills', name = 'antihistamine', price = 1000, grade = 0},
-		{ category = 'pills', name = 'diatabs', price = 500, grade = 0},
-		{ category = 'pills', name = 'multivitamins', price = 1000, grade = 0},
-		{ category = 'pills', name = 'offlotion', price = 500, grade = 0},
-		{ category = 'pills', name = 'acetaminophe', price = 500, grade = 0},
+		{ category = 'medicine', name = 'aguaoxinada', price = 10, grade = 0},
+		{ category = 'medicine', name = 'betadine', price = 10, grade = 0},
+		{ category = 'pills', name = 'stresstab', price = 21, grade = 0},
+		{ category = 'pills', name = 'alaxan', price = 13, grade = 0},
+		{ category = 'pills', name = 'molnupiravir', price = 14, grade = 0},
+		{ category = 'pills', name = 'metronidazole', price = 12, grade = 0},
+		{ category = 'pills', name = 'baraclude', price = 14, grade = 0},
+		{ category = 'pills', name = 'ambroxol', price = 7, grade = 0},
+		{ category = 'pills', name = 'antihistamine', price = 10, grade = 0},
+		{ category = 'pills', name = 'diatabs', price = 5, grade = 0},
+		{ category = 'pills', name = 'multivitamins', price = 3, grade = 0},
+		{ category = 'pills', name = 'offlotion', price = 5, grade = 0},
+		{ category = 'pills', name = 'acetaminophe', price = 5, grade = 0},
 
 	},
 
 	WeedSeedShop = { -- EclipseSupply
-		{ category = 'seed', name = 'weed_lemonhaze_seed', price = 1500, grade = 0},
-		{ category = 'etc', name = 'water', price = 500, grade = 0},
-		{ category = 'etc', name = 'fertilizer', price = 500, grade = 0},
+		{ category = 'seed', name = 'weed_lemonhaze_seed', price = 15, grade = 0},
+		{ category = 'etc', name = 'water', price = 2, grade = 0},
+		{ category = 'etc', name = 'fertilizer', price = 7, grade = 0},
 
 
 	},
@@ -295,43 +321,46 @@ return {
 	},
 
 	MechanicSupply = { -- MechanicSupply 
-	{ category = 'Engine Parts',  name = 'transmition_clutch', price = 5000, },
-	{ category = 'Engine Parts',  name = 'engine_flywheel', price = 3000, },
-	{ category = 'Engine Parts',  name = 'engine_oil', price = 2000, },
-	{ category = 'Engine Parts',  name = 'engine_sparkplug', price = 1000, },
-	{ category = 'Engine Parts',  name = 'engine_gasket', price = 2000, },
-	{ category = 'Engine Parts',  name = 'engine_airfilter', price = 2000, },
-	{ category = 'Engine Parts',  name = 'engine_fuelinjector', price = 2000, },
-	{ category = 'Engine Parts',  name = 'engine_pistons', price = 4000, },
-	{ category = 'Engine Parts',  name = 'engine_connectingrods', price = 4000, },
-	{ category = 'Engine Parts',  name = 'engine_valves', price = 2000, },
-	{ category = 'Engine Parts',  name = 'engine_block', price = 5000, },
-	{ category = 'Engine Parts',  name = 'engine_crankshaft', price = 5000, },
-	{ category = 'Engine Parts',  name = 'engine_camshaft', price = 5000, },
+		--[[
+		{ category = 'Engine Parts',  name = 'transmition_clutch', price = 5000, },
+		{ category = 'Engine Parts',  name = 'engine_flywheel', price = 3000, },
+		{ category = 'Engine Parts',  name = 'engine_oil', price = 2000, },
+		{ category = 'Engine Parts',  name = 'engine_sparkplug', price = 1000, },
+		{ category = 'Engine Parts',  name = 'engine_gasket', price = 2000, },
+		{ category = 'Engine Parts',  name = 'engine_airfilter', price = 2000, },
+		{ category = 'Engine Parts',  name = 'engine_fuelinjector', price = 2000, },
+		{ category = 'Engine Parts',  name = 'engine_pistons', price = 4000, },
+		{ category = 'Engine Parts',  name = 'engine_connectingrods', price = 4000, },
+		{ category = 'Engine Parts',  name = 'engine_valves', price = 2000, },
+		{ category = 'Engine Parts',  name = 'engine_block', price = 5000, },
+		{ category = 'Engine Parts',  name = 'engine_crankshaft', price = 5000, },
+		{ category = 'Engine Parts',  name = 'engine_camshaft', price = 5000, },
 
-	{ category = 'Engine Parts',  name = 'racing_clutch', price = 50001, },
-	{ category = 'Engine Parts',  name = 'racing_flywheel', price = 30001, },
-	{ category = 'Engine Parts',  name = 'racing_oil', price = 20001, },
-	{ category = 'Engine Parts',  name = 'racing_sparkplug', price = 10001, },
-	{ category = 'Engine Parts',  name = 'racing_gasket', price = 20001, },
-	{ category = 'Engine Parts',  name = 'racing_airfilter', price = 20001, },
-	{ category = 'Engine Parts',  name = 'racing_fuelinjector', price = 20001, },
-	{ category = 'Engine Parts',  name = 'racing_pistons', price = 40001, },
-	{ category = 'Engine Parts',  name = 'racing_connectingrods', price = 40001, },
-	{ category = 'Engine Parts',  name = 'racing_valves', price = 20001, },
-	{ category = 'Engine Parts',  name = 'racing_block', price = 50001, },
-	{ category = 'Engine Parts',  name = 'racing_crankshaft', price = 50001, },
-	{ category = 'Engine Parts',  name = 'racing_camshaft', price = 50001, },
+		{ category = 'Engine Parts',  name = 'racing_clutch', price = 50001, },
+		{ category = 'Engine Parts',  name = 'racing_flywheel', price = 30001, },
+		{ category = 'Engine Parts',  name = 'racing_oil', price = 20001, },
+		{ category = 'Engine Parts',  name = 'racing_sparkplug', price = 10001, },
+		{ category = 'Engine Parts',  name = 'racing_gasket', price = 20001, },
+		{ category = 'Engine Parts',  name = 'racing_airfilter', price = 20001, },
+		{ category = 'Engine Parts',  name = 'racing_fuelinjector', price = 20001, },
+		{ category = 'Engine Parts',  name = 'racing_pistons', price = 40001, },
+		{ category = 'Engine Parts',  name = 'racing_connectingrods', price = 40001, },
+		{ category = 'Engine Parts',  name = 'racing_valves', price = 20001, },
+		{ category = 'Engine Parts',  name = 'racing_block', price = 50001, },
+		{ category = 'Engine Parts',  name = 'racing_crankshaft', price = 50001, },
+		{ category = 'Engine Parts',  name = 'racing_camshaft', price = 50001, },
+		]]--
 
-	{ category = 'Tires',  name = 'street_tires', price = 20001, },
-	{ category = 'Tires',  name = 'sports_tires', price = 40001, },
-	{ category = 'Tires',  name = 'racing_tires', price = 60001, },
-	{ category = 'Tires',  name = 'drag_tires', price = 80001, },
-	{ category = 'Tires',  name = 'drift_tires', price = 50001, },
+		{ category = 'Tires',  name = 'street_tires', price = 75, },
+		{ category = 'Tires',  name = 'sports_tires', price = 95, },
+		{ category = 'Tires',  name = 'racing_tires', price = 115, },
+		{ category = 'Tires',  name = 'drag_tires', price = 225, },
+		{ category = 'Tires',  name = 'drift_tires', price = 175, },
 
-		{ category = 'Kits',  name = 'fixkit', price = 2000, },
-		{ category = 'materials',  name = 'steel', price = 250, },
-		{ category = 'Kits',  name = 'stancerkit', price = 2000, },
+		{ category = 'Kits',  name = 'fixkit', price = 120, },
+		{ category = 'materials',  name = 'steel', price = 5, },
+		{ category = 'Kits',  name = 'stancerkit', price = 550, },
+		--[[
 		{ category = 'engines',  name = 'enginegago', price = 50000, metadata = {
 			handlingname = 'supra2jzgtett',
 			description = 'Supra Engine - Can be installed to any vehicles. ',
@@ -457,33 +486,34 @@ return {
 			engine = 'm158huayra',
 			label = 'Huayra Engine Swap'
 		}},
-		{ category = 'Turbo',  name = 'turbostreet', price = 15000, },
-		{ category = 'Turbo',  name = 'turbosports', price = 30000, },
-		{ category = 'Turbo',  name = 'turboracing', price = 50000, },
-		{ category = 'Gadget',  name = 'vehiclecontroller', price = 150000, },
+		]]--
+		{ category = 'Turbo',  name = 'turbostreet', price = 1500, },
+		{ category = 'Turbo',  name = 'turbosports', price = 3000, },
+		{ category = 'Turbo',  name = 'turboracing', price = 5000, },
+		{ category = 'Gadget',  name = 'vehiclecontroller', price = 1250, },
 
 
 
 	},
 
 	BeanMachine = { -- BeanMachine 
-		{ category = 'Coffee',  name = 'starbcoffee', price = 1000, },
-		{ category = 'Donuts',  name = 'starbdonut', price = 1200, },
-		{ category = 'Donuts',  name = 'starbdonut', price = 1500,  metadata = { -- ox_inventory supported only
+		{ category = 'Coffee',  name = 'starbcoffee', price = 4, },
+		{ category = 'Donuts',  name = 'starbdonut', price = 3, },
+		{ category = 'Donuts',  name = 'starbdonut', price = 4,  metadata = { -- ox_inventory supported only
 			label = 'Chocolate Donut', -- custom label name to set from metadatas
 			name = 'chocolatedonut', -- identifier important
 			hunger = 250000,
 			image = 'chocolatedonut',
 			description = 'Donut with Chocolate Syrup',
 		}},
-		{ category = 'Donuts',  name = 'starbdonut', price = 1500,  metadata = { -- ox_inventory supported only
+		{ category = 'Donuts',  name = 'starbdonut', price = 5,  metadata = { -- ox_inventory supported only
 			label = 'Strawberry Donut', -- custom label name to set from metadatas
 			name = 'strawberrydonut', -- identifier important
 			hunger = 250000,
 			image = 'strawberrydonut',
 			description = 'Donut with Strawberry Syrup',
 		}},
-		{ category = 'Donuts',  name = 'starbdonut', price = 1500, metadata = { -- ox_inventory supported only
+		{ category = 'Donuts',  name = 'starbdonut', price = 6, metadata = { -- ox_inventory supported only
 			label = 'Glazed Donut', -- custom label name to set from metadatas
 			name = 'glazeddonut', -- identifier important
 			hunger = 250000,
@@ -526,18 +556,18 @@ return {
 	),
 
 	['Petshop'] = { -- Petshop 
-		{ category = 'Food',  name = 'dogfood', price = 15100, },
-		{ category = 'Food',  name = 'catfood', price = 15100, },
-		{ category = 'Food',  name = 'petwater', price = 15100, },
-		{ category = 'Pet',  name = 'a_c_cat_01', price = 10000, disable = true},
-		{ category = 'Pet',  name = 'a_c_chop', price = 10000, disable = true},
-		{ category = 'Pet',  name = 'a_c_husky', price = 10000, disable = true},
-		{ category = 'Pet',  name = 'a_c_poodle', price = 10000, disable = true},
-		{ category = 'Pet',  name = 'a_c_pug', price = 10000, disable = true},
-		{ category = 'Pet',  name = 'a_c_retriever', price = 10000, disable = true},
-		{ category = 'Pet',  name = 'a_c_rottweiler', price = 10000, disable = true},
-		{ category = 'Pet',  name = 'a_c_shepherd', price = 10000, disable = true},
-		{ category = 'Pet',  name = 'a_c_westy', price = 10000, disable = true},
+		{ category = 'Food',  name = 'dogfood', price = 5, },
+		{ category = 'Food',  name = 'catfood', price = 4, },
+		{ category = 'Food',  name = 'petwater', price = 3, },
+		{ category = 'Pet',  name = 'a_c_cat_01', price = 650, disable = true},
+		{ category = 'Pet',  name = 'a_c_chop', price = 1250, disable = true},
+		{ category = 'Pet',  name = 'a_c_husky', price = 2650, disable = true},
+		{ category = 'Pet',  name = 'a_c_poodle', price = 975, disable = true},
+		{ category = 'Pet',  name = 'a_c_pug', price = 1130, disable = true},
+		{ category = 'Pet',  name = 'a_c_retriever', price = 1400, disable = true},
+		{ category = 'Pet',  name = 'a_c_rottweiler', price = 1685, disable = true},
+		{ category = 'Pet',  name = 'a_c_shepherd', price = 1275, disable = true},
+		{ category = 'Pet',  name = 'a_c_westy', price = 1350, disable = true},
 
 
 	},

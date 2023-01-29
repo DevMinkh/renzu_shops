@@ -1507,7 +1507,7 @@ lib.callback.register("renzu_shops:addemployee", function(source,data)
 	end
 	player:set('confirmation',{store = data.store, ts = os.time()},true)
 	local c = 0
-	while not requests[data.id] and c <= 5 do
+	while not requests[data.id] and c <= 1 do
 		c = c + 1
 		if c == 4 then
 			requests[data.id] = 'cancel'

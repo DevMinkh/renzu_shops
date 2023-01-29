@@ -1,6 +1,6 @@
 -- this the list of items can be used from item customisation when you click the image from shops.
 Customise = {
-	['cheese'] = {hunger = 100000, poison = true, customfunc = function() return print("THIS IS A FUNCTION") end },
+	['cheese'] = {hunger = 100000, poison = false, customfunc = function() return print("THIS IS A FUNCTION") end },
 	['lettuce'] = {hunger = 10000, melee = {duration = 300, amount = 0.1}},
 	['hotsauce'] = {thirst = -10000, stress = -10000},
 }
